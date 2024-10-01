@@ -1,0 +1,82 @@
+[
+  {
+    "orderId": 1,
+    "customer": {
+      "customerId": 100,
+      "addressLine": "Storgatan 8",
+      "city": "Storstaden",
+      "createdAt": "2024-10-01T11:05:59.608401+02:00",
+      "email": null,
+      "firstName": "Anneli",
+      "lastBuy": "2024-10-01T11:05:59.608418+02:00",
+      "lastName": "Oskarsson",
+      "phone": null,
+      "postalCode": "123 45"
+    },
+    "orderDate": "2024-10-01T11:05:59.592424+02:00",
+    "orderItems": [
+      {
+        "discount": 0.1,
+        "lineSum": 360.0,
+        "product": {
+          "productId": 1,
+          "itemNumber": "1-5679X",
+          "name": "Sliptrissor",
+          "price": 40
+        },
+        "quantity": 10
+      },
+      {
+        "discount": 0.2,
+        "lineSum": 3196.0,
+        "product": {
+          "productId": 2,
+          "itemNumber": "1-5665X",
+          "name": "Slipmaskin",
+          "price": 3995
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": 1,
+    "customer": {
+      "customerId": 100,
+      "addressLine": "Storgatan 8",
+      "city": "Storstaden",
+      "createdAt": "2024-10-01T11:05:59.608795+02:00",
+      "email": null,
+      "firstName": "Anneli",
+      "lastBuy": "2024-10-01T11:05:59.608795+02:00",
+      "lastName": "Oskarsson",
+      "phone": null,
+      "postalCode": "123 45"
+    },
+    "orderDate": "2024-10-01T11:05:59.608794+02:00",
+    "orderItems": [
+      {
+        "discount": 0.15,
+        "lineSum": 170.00,
+        "product": {
+          "productId": 3,
+          "itemNumber": "1-5645X",
+          "name": "Diskborstar",
+          "price": 2
+        },
+        "quantity": 100
+      },
+      {
+        "discount": 0.25,
+        "lineSum": 1875.0000,
+        "product": {
+          "productId": 4,
+          "itemNumber": "1-561115X",
+          "name": "Stålull",
+          "price": 12.50
+        },
+        "quantity": 200
+      }
+    ]
+  }
+]

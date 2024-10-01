@@ -1,14 +1,40 @@
 {
   "orderId": 1,
-  "orderDate": "2024-09-30T16:04:06.444814+02:00",
   "customer": {
     "customerId": 100,
-    "createdAt": "2024-09-30T16:04:06.471133+02:00",
-    "lastBuy": "2024-09-30T16:04:06.471148+02:00",
-    "firstName": "Anneli",
-    "lastName": "Oskarsson",
     "addressLine": "Storgatan 8",
-    "postalCode": "123 45",
-    "city": "Storstaden"
-  }
+    "city": "Storstaden",
+    "createdAt": "2024-10-01T10:44:00.826456+02:00",
+    "email": null,
+    "firstName": "Anneli",
+    "lastBuy": "2024-10-01T10:44:00.826472+02:00",
+    "lastName": "Oskarsson",
+    "phone": null,
+    "postalCode": "123 45"
+  },
+  "orderDate": "2024-10-01T10:44:00.81052+02:00",
+  "orderItems": [
+    {
+      "discount": 0.1,
+      "lineSum": 360.0,
+      "product": {
+        "productId": 1,
+        "itemNumber": "1-5679X",
+        "name": "Sliptrissor",
+        "price": 40
+      },
+      "quantity": 10
+    },
+    {
+      "discount": 0.2,
+      "lineSum": 3196.0,
+      "product": {
+        "productId": 2,
+        "itemNumber": "1-5665X",
+        "name": "Slipmaskin",
+        "price": 3995
+      },
+      "quantity": 1
+    }
+  ]
 }
