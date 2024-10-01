@@ -5,15 +5,15 @@
       "customerId": 100,
       "addressLine": "Storgatan 8",
       "city": "Storstaden",
-      "createdAt": "2024-10-01T11:05:59.608401+02:00",
+      "createdAt": "2024-10-01T11:53:51.453131+02:00",
       "email": null,
       "firstName": "Anneli",
-      "lastBuy": "2024-10-01T11:05:59.608418+02:00",
+      "lastBuy": "2024-10-01T11:53:51.453148+02:00",
       "lastName": "Oskarsson",
       "phone": null,
       "postalCode": "123 45"
     },
-    "orderDate": "2024-10-01T11:05:59.592424+02:00",
+    "orderDate": "2024-10-01T11:53:51.43834+02:00",
     "orderItems": [
       {
         "discount": 0.1,
@@ -40,20 +40,20 @@
     ]
   },
   {
-    "orderId": 1,
+    "orderId": 2,
     "customer": {
       "customerId": 100,
-      "addressLine": "Storgatan 8",
-      "city": "Storstaden",
-      "createdAt": "2024-10-01T11:05:59.608795+02:00",
+      "addressLine": "Vikenvägen 1",
+      "city": "Lillstaden",
+      "createdAt": "2024-10-01T11:53:51.453483+02:00",
       "email": null,
-      "firstName": "Anneli",
-      "lastBuy": "2024-10-01T11:05:59.608795+02:00",
-      "lastName": "Oskarsson",
+      "firstName": "Annika",
+      "lastBuy": "2024-10-01T11:53:51.453483+02:00",
+      "lastName": "Eriksson",
       "phone": null,
       "postalCode": "123 45"
     },
-    "orderDate": "2024-10-01T11:05:59.608794+02:00",
+    "orderDate": "2024-10-01T11:53:51.453482+02:00",
     "orderItems": [
       {
         "discount": 0.15,

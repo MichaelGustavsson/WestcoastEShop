@@ -1,6 +1,4 @@
-﻿using System.Text.Encodings.Web;
-using System.Text.Json;
-using Westcoast_EShop.Models;
+﻿using Westcoast_EShop.Models;
 
 namespace Westcoast_EShop;
 
@@ -116,15 +114,7 @@ public class Program
     orders.Add(order);
 
     /* HÄR SKRIVER VI NER ALLT TILL ETT JSON DOKUMENT */
-    var options = new JsonSerializerOptions
-    {
-      PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-      Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
-      WriteIndented = true
-    };
-    var json = JsonSerializer.Serialize(orders, options);
-
     var path = string.Concat(Environment.CurrentDirectory, "/Data/orders.json");
-    File.WriteAllText(path, json);
+    Storage.WriteJson(path, orders);
   }
 }
